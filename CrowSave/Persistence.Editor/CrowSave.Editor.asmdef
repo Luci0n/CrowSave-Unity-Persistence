@@ -1,0 +1,16 @@
+{
+    "name": "CrowSave.Editor",
+    "rootNamespace": "CrowSave",
+    "references": [
+        "GUID:0927501e8b0bb994a926420b93f14fc2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6253792064438080952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5565454873806183344}
+  - component: {fileID: 7460985518970447696}
+  - component: {fileID: 842619576501893062}
+  - component: {fileID: 197600712246095281}
+  - component: {fileID: 5147991342637279730}
+  - component: {fileID: 664689763694858464}
+  - component: {fileID: 156019243852680627}
+  - component: {fileID: 7063547719064027137}
+  m_Layer: 0
+  m_Name: BootstrapExample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5565454873806183344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253792064438080952}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7460985518970447696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253792064438080952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77663a123f68d04da3a2dbe7b27540d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &842619576501893062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253792064438080952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241a6df194835f54995e1264ec640408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: 88367136dac344e41825b853b75f70e9, type: 2}
+--- !u!114 &197600712246095281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253792064438080952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f84c84d6c2620484c8de901a4de82d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFolderName: saves
+  orchestrator: {fileID: 842619576501893062}
+--- !u!114 &5147991342637279730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253792064438080952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd9982aeadbcc5740a26d78a7647268a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 0
+  toggleKey: 282
+  uiScale: 1
+  accentColor: {r: 0.3, g: 0.65, b: 1, a: 1}
+  fontSize: 12
+--- !u!114 &664689763694858464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253792064438080952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840313299cd12154c97089a230d39fba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  policy: 2
+  priority: 0
+  resetPolicy: 0
+  autoResetFromDefaults: 1
+  debugLogs: 0
+--- !u!114 &156019243852680627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253792064438080952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a087e55737c694e9f2f51989e2967c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoReapply: 1
+  delayFrames: 1
+  debugLogs: 0
+--- !u!114 &7063547719064027137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253792064438080952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fc5bc6f7a951d4caafda3c96683f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entityId: crowsave.flags
+  globalScope: 1
+  scopeOverride: 
