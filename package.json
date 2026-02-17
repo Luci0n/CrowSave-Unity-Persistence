@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "CrowSave",
   "description": "A Unity persistence framework for predictable save/load and deterministic scene travel.",
-  "unity": "2022.3.35f1",
+  "unity": "2022.3",
   "dependencies": {},
   "keywords": [
     "persistence",
