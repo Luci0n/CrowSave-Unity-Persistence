@@ -24,14 +24,13 @@ CrowSave is built around explicit capture/apply, scoped identity, and stable orc
 **Option A — Unity Package (.unitypackage)**
 
 1. Download the latest `.unitypackage` from the releases page.
-2. In Unity: **Assets → Import Package → Custom Package**.
-3. Select the downloaded file and import all assets.
+2. Double click on the file and import all assets.
 
 **Option B — Unity Package Manager (Git URL)**
 
 1. Open **Window → Package Manager**.
 2. Click **+** → **Add package from git URL**.
-3. Enter the repository URL and confirm.
+3. Enter - https://github.com/Luci0n/CrowSave-Unity-Persistence.git - and confirm.
 
 ---
 
