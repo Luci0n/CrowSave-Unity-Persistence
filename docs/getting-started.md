@@ -4,6 +4,13 @@
 
 **Requirements:** Unity project with scenes configured in Build Settings, and CrowSave imported (`Persistence/` folder present).
 
+## Documentation
+| Doc | Contents |
+|---|---|
+| [Overview](docs/overview.md) | Architecture, core concepts, modules |
+| [Getting Started](docs/getting-started.md) | Bootstrap, SaveConfig, first entity, operations |
+| [Persistence](docs/persistence.md) | Capture/Apply authoring, versioning, DirtyOnly, policies |
+| [Architecture](docs/architecture.md) | End-to-end pipeline maps for all operations |
 ---
 
 ## 1) Add the bootstrap
