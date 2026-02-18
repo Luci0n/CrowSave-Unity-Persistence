@@ -2,7 +2,14 @@
 
 This document maps the end-to-end pipeline for every major operation CrowSave runs: **manual save**, **load game**, **scene transition**, and **checkpoint**.
 
-For concepts (scopes, identity, blobs, policies) see [Overview](overview.md). For authoring entities see [Persistence](persistence.md).
+## Documentation
+
+| Doc | Contents |
+|---|---|
+| [Overview](docs/overview.md) | Architecture, core concepts, modules |
+| [Getting Started](docs/getting-started.md) | Bootstrap, SaveConfig, first entity, operations |
+| [Persistence](docs/persistence.md) | Capture/Apply authoring, versioning, DirtyOnly, policies |
+| [Architecture](docs/architecture.md) | End-to-end pipeline maps for all operations |
 
 ---
 
