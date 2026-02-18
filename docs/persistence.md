@@ -2,8 +2,13 @@
 
 This document covers everything you need to **author persistent entities**: writing `Capture()`/`Apply()`, versioning blobs, using `DirtyOnly`, and configuring policies and reset behavior.
 
-For a conceptual overview of scopes, identity, and storage layers see [Overview](overview.md). For initial project setup see [Getting Started](getting-started.md).
-
+## Documentation
+| Doc | Contents |
+|---|---|
+| [Overview](docs/overview.md) | Architecture, core concepts, modules |
+| [Getting Started](docs/getting-started.md) | Bootstrap, SaveConfig, first entity, operations |
+| [Persistence](docs/persistence.md) | Capture/Apply authoring, versioning, DirtyOnly, policies |
+| [Architecture](docs/architecture.md) | End-to-end pipeline maps for all operations |
 ---
 
 ## Implementing a persistent component
