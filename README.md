@@ -8,7 +8,7 @@ CrowSave is built around explicit capture/apply, scoped identity, and stable orc
 
 ## Features
 
-- **Explicit Capture/Apply** — entities own their blob format; no reflection, no magic
+- **Explicit Capture/Apply** — entities own their blob format; no magic
 - **Scoped identity** — state keyed by `(ScopeKey, EntityId)` prevents cross-scene and cross-instance collisions
 - **Two storage layers** — RAM layer for in-session travel; disk layer for saves, checkpoints, and load-game
 - **Deterministic orchestration** — stable apply order with a barrier step before every Apply phase
