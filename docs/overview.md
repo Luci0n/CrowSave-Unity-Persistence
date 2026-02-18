@@ -4,6 +4,13 @@
 
 At its core, CrowSave is the **Persistence** system: capture/apply, orchestration, disk saves, checkpoints, and scene transitions. On top of that core, CrowSave can ship with **optional modules** that reuse the same scopes and state pipeline.
 
+## Documentation
+| Doc | Contents |
+|---|---|
+| [Overview](docs/overview.md) | Architecture, core concepts, modules |
+| [Getting Started](docs/getting-started.md) | Bootstrap, SaveConfig, first entity, operations |
+| [Persistence](docs/persistence.md) | Capture/Apply authoring, versioning, DirtyOnly, policies |
+| [Architecture](docs/architecture.md) | End-to-end pipeline maps for all operations |
 ---
 
 ## What's in CrowSave
