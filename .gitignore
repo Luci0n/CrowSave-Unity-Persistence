@@ -99,5 +99,5 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
 # License & Docs
-LICENSE.md.meta
+LICENSE.meta
 docs/**/*.meta

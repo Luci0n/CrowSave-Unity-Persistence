@@ -6,10 +6,10 @@ This document maps the end-to-end pipeline for every major operation CrowSave ru
 
 | Doc | Contents |
 |---|---|
-| [Overview](/overview.md) | Architecture, core concepts, modules |
-| [Getting Started](/getting-started.md) | Bootstrap, SaveConfig, first entity, operations |
-| [Persistence](/persistence.md) | Capture/Apply authoring, versioning, DirtyOnly, policies |
-| [Architecture](/architecture.md) | End-to-end pipeline maps for all operations |
+| [Overview](overview.md) | Architecture, core concepts, modules |
+| [Getting Started](getting-started.md) | Bootstrap, SaveConfig, first entity, operations |
+| [Persistence](persistence.md) | Capture/Apply authoring, versioning, DirtyOnly, policies |
+| [Architecture](architecture.md) | End-to-end pipeline maps for all operations |
 
 ---
 

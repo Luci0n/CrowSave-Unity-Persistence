@@ -5,10 +5,10 @@ This document covers everything you need to **author persistent entities**: writ
 ## Documentation
 | Doc | Contents |
 |---|---|
-| [Overview](docs/overview.md) | Architecture, core concepts, modules |
-| [Getting Started](docs/getting-started.md) | Bootstrap, SaveConfig, first entity, operations |
-| [Persistence](docs/persistence.md) | Capture/Apply authoring, versioning, DirtyOnly, policies |
-| [Architecture](docs/architecture.md) | End-to-end pipeline maps for all operations |
+| [Overview](overview.md) | Architecture, core concepts, modules |
+| [Getting Started](getting-started.md) | Bootstrap, SaveConfig, first entity, operations |
+| [Persistence](persistence.md) | Capture/Apply authoring, versioning, DirtyOnly, policies |
+| [Architecture](architecture.md) | End-to-end pipeline maps for all operations |
 ---
 
 ## Implementing a persistent component
