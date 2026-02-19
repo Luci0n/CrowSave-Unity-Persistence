@@ -19,6 +19,8 @@ CrowSave's runtime services must exist **once** and persist across scene loads. 
 
 **Option A — Bootstrap scene (recommended)**
 
+<img width="479" height="416" alt="image" src="https://github.com/user-attachments/assets/e188dc12-ff86-4e9a-9f11-3ed4815e59ca" />
+
 1. Create a dedicated first scene (e.g. `Bootstrap` or `MainMenu`).
 2. Add a GameObject named `CrowSave`.
 3. Add `PersistenceBootstrap` and `SaveOrchestrator` components to it.
@@ -35,6 +37,9 @@ Spawn the bootstrap prefab in every scene if it isn't already present. Useful du
 1. In the Project window: **Create → CrowSave → Save Config**
 2. Select your `SaveOrchestrator` component and assign the new asset.
 
+<img width="501" height="763" alt="image" src="https://github.com/user-attachments/assets/273a45b3-271f-4980-be21-fbc074485202" />
+
+
 | Setting | Recommended value |
 |---|---|
 | Scene Identity Mode | `SceneGuid` |
@@ -48,6 +53,9 @@ Spawn the bootstrap prefab in every scene if it isn't already present. Useful du
 > Skip this step if you chose a different Scene Identity Mode.
 
 Open **Tools → CrowSave → Scene GUID Manager**, then:
+
+<img width="1371" height="280" alt="image" src="https://github.com/user-attachments/assets/6135ec9b-466b-459d-8105-d8111c42f837" />
+
 
 1. Select your scenes and press **Add to Build**.
 2. Press **Select Problems** → **Add/Fix Selected** to add a `SceneGuid` component to each scene.
