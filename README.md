@@ -1,5 +1,8 @@
-# CrowSave
+<p align="center">
+<img width="718" height="113" alt="crowsave" src="https://github.com/user-attachments/assets/8e0bd6ae-0b72-4dcc-ae56-86baf522707c" />
+</p>
 
+---
 A Unity persistence framework for **predictable save/load and deterministic scene travel**.
 
 CrowSave is built around explicit capture/apply, scoped identity, and stable orchestration — designed to eliminate the class of bugs caused by implicit serialization, unscoped IDs, and non-deterministic apply order.
@@ -28,9 +31,11 @@ CrowSave is built around explicit capture/apply, scoped identity, and stable orc
 
 **Option B — Unity Package Manager (Git URL)**
 
-1. Open **Window → Package Manager**.
-2. Click **+** → **Add package from git URL**.
-3. Enter - https://github.com/Luci0n/CrowSave-Unity-Persistence.git - and confirm.
+In Unity, open `Window > Package Manager`, click `+` → `Add package from git URL`, and enter:
+
+```
+https://github.com/Luci0n/CrowSave-Unity-Persistence.git?path=CrowSave
+```
 
 ---
 
